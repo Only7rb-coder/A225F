@@ -37,7 +37,7 @@ jobs:
           	export DTC_EXT=dtc
             LLVM=1
             LLVM_IAS=1
-            make ${args} a71_eur_open_defconfig
+            make ${args} a22_defconfig
             make ${args} 
 
       - name: build ak3
